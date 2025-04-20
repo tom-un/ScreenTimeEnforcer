@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		38FFAA492DB53F9000281774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FFAA2F2DB53F8E00281774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FFAA362DB53F8E00281774;
+			remoteInfo = ScreenTimeEnforcer;
+		};
+		38FFAA532DB53F9000281774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FFAA2F2DB53F8E00281774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FFAA362DB53F8E00281774;
+			remoteInfo = ScreenTimeEnforcer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38FFAA372DB53F8E00281774 /* ScreenTimeEnforcer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTimeEnforcer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FFAA482DB53F9000281774 /* ScreenTimeEnforcerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTimeEnforcerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FFAA522DB53F9000281774 /* ScreenTimeEnforcerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTimeEnforcerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		38FFAA392DB53F8E00281774 /* ScreenTimeEnforcer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenTimeEnforcer;
+			sourceTree = "<group>";
+		};
+		38FFAA4B2DB53F9000281774 /* ScreenTimeEnforcerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenTimeEnforcerTests;
+			sourceTree = "<group>";
+		};
+		38FFAA552DB53F9000281774 /* ScreenTimeEnforcerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenTimeEnforcerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38FFAA342DB53F8E00281774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FFAA452DB53F9000281774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FFAA4F2DB53F9000281774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38FFAA2E2DB53F8E00281774 = {
+			isa = PBXGroup;
+			children = (
+				38FFAA392DB53F8E00281774 /* ScreenTimeEnforcer */,
+				38FFAA4B2DB53F9000281774 /* ScreenTimeEnforcerTests */,
+				38FFAA552DB53F9000281774 /* ScreenTimeEnforcerUITests */,
+				38FFAA382DB53F8E00281774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38FFAA382DB53F8E00281774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38FFAA372DB53F8E00281774 /* ScreenTimeEnforcer.app */,
+				38FFAA482DB53F9000281774 /* ScreenTimeEnforcerTests.xctest */,
+				38FFAA522DB53F9000281774 /* ScreenTimeEnforcerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38FFAA362DB53F8E00281774 /* ScreenTimeEnforcer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FFAA5C2DB53F9000281774 /* Build configuration list for PBXNativeTarget "ScreenTimeEnforcer" */;
+			buildPhases = (
+				38FFAA332DB53F8E00281774 /* Sources */,
+				38FFAA342DB53F8E00281774 /* Frameworks */,
+				38FFAA352DB53F8E00281774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				38FFAA392DB53F8E00281774 /* ScreenTimeEnforcer */,
+			);
+			name = ScreenTimeEnforcer;
+			packageProductDependencies = (
+			);
+			productName = ScreenTimeEnforcer;
+			productReference = 38FFAA372DB53F8E00281774 /* ScreenTimeEnforcer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38FFAA472DB53F9000281774 /* ScreenTimeEnforcerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FFAA5F2DB53F9000281774 /* Build configuration list for PBXNativeTarget "ScreenTimeEnforcerTests" */;
+			buildPhases = (
+				38FFAA442DB53F9000281774 /* Sources */,
+				38FFAA452DB53F9000281774 /* Frameworks */,
+				38FFAA462DB53F9000281774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FFAA4A2DB53F9000281774 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38FFAA4B2DB53F9000281774 /* ScreenTimeEnforcerTests */,
+			);
+			name = ScreenTimeEnforcerTests;
+			packageProductDependencies = (
+			);
+			productName = ScreenTimeEnforcerTests;
+			productReference = 38FFAA482DB53F9000281774 /* ScreenTimeEnforcerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38FFAA512DB53F9000281774 /* ScreenTimeEnforcerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FFAA622DB53F9000281774 /* Build configuration list for PBXNativeTarget "ScreenTimeEnforcerUITests" */;
+			buildPhases = (
+				38FFAA4E2DB53F9000281774 /* Sources */,
+				38FFAA4F2DB53F9000281774 /* Frameworks */,
+				38FFAA502DB53F9000281774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FFAA542DB53F9000281774 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38FFAA552DB53F9000281774 /* ScreenTimeEnforcerUITests */,
+			);
+			name = ScreenTimeEnforcerUITests;
+			packageProductDependencies = (
+			);
+			productName = ScreenTimeEnforcerUITests;
+			productReference = 38FFAA522DB53F9000281774 /* ScreenTimeEnforcerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38FFAA2F2DB53F8E00281774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					38FFAA362DB53F8E00281774 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					38FFAA472DB53F9000281774 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 38FFAA362DB53F8E00281774;
+					};
+					38FFAA512DB53F9000281774 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 38FFAA362DB53F8E00281774;
+					};
+				};
+			};
+			buildConfigurationList = 38FFAA322DB53F8E00281774 /* Build configuration list for PBXProject "ScreenTimeEnforcer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38FFAA2E2DB53F8E00281774;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 38FFAA382DB53F8E00281774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38FFAA362DB53F8E00281774 /* ScreenTimeEnforcer */,
+				38FFAA472DB53F9000281774 /* ScreenTimeEnforcerTests */,
+				38FFAA512DB53F9000281774 /* ScreenTimeEnforcerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38FFAA352DB53F8E00281774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FFAA462DB53F9000281774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FFAA502DB53F9000281774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38FFAA332DB53F8E00281774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FFAA442DB53F9000281774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FFAA4E2DB53F9000281774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38FFAA4A2DB53F9000281774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FFAA362DB53F8E00281774 /* ScreenTimeEnforcer */;
+			targetProxy = 38FFAA492DB53F9000281774 /* PBXContainerItemProxy */;
+		};
+		38FFAA542DB53F9000281774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FFAA362DB53F8E00281774 /* ScreenTimeEnforcer */;
+			targetProxy = 38FFAA532DB53F9000281774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38FFAA5A2DB53F9000281774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38FFAA5B2DB53F9000281774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		38FFAA5D2DB53F9000281774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeEnforcer/ScreenTimeEnforcer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimeEnforcer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tomun.ScreenTimeEnforcer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		38FFAA5E2DB53F9000281774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeEnforcer/ScreenTimeEnforcer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimeEnforcer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tomun.ScreenTimeEnforcer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		38FFAA602DB53F9000281774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tomun.ScreenTimeEnforcerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenTimeEnforcer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenTimeEnforcer";
+			};
+			name = Debug;
+		};
+		38FFAA612DB53F9000281774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tomun.ScreenTimeEnforcerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenTimeEnforcer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenTimeEnforcer";
+			};
+			name = Release;
+		};
+		38FFAA632DB53F9000281774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tomun.ScreenTimeEnforcerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ScreenTimeEnforcer;
+			};
+			name = Debug;
+		};
+		38FFAA642DB53F9000281774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tomun.ScreenTimeEnforcerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ScreenTimeEnforcer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38FFAA322DB53F8E00281774 /* Build configuration list for PBXProject "ScreenTimeEnforcer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FFAA5A2DB53F9000281774 /* Debug */,
+				38FFAA5B2DB53F9000281774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FFAA5C2DB53F9000281774 /* Build configuration list for PBXNativeTarget "ScreenTimeEnforcer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FFAA5D2DB53F9000281774 /* Debug */,
+				38FFAA5E2DB53F9000281774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FFAA5F2DB53F9000281774 /* Build configuration list for PBXNativeTarget "ScreenTimeEnforcerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FFAA602DB53F9000281774 /* Debug */,
+				38FFAA612DB53F9000281774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FFAA622DB53F9000281774 /* Build configuration list for PBXNativeTarget "ScreenTimeEnforcerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FFAA632DB53F9000281774 /* Debug */,
+				38FFAA642DB53F9000281774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38FFAA2F2DB53F8E00281774 /* Project object */;
+}
