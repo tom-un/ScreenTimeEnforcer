@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DeviceActivity
 
 @main
 struct ScreenTimeEnforcerApp: App {
